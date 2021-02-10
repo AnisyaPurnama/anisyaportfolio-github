@@ -6,10 +6,8 @@
 
 <!-- BEGIN TOC -->
 
-- [app](#app)
-  - [todos.js](#srcapptodosjs)
+- [classes](#classes)
 - [handlers](#handlers)
-  - [add-todo.js](#srchandlersadd-todojs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
@@ -21,11 +19,7 @@
 
 ---
 
-# app
-
----
-
-### [./src/app/todos.js](./src/app/todos.js?study)
+Classes and their tests
 
 [TOP](#DOCS)
 
@@ -42,10 +36,6 @@ Handler function define user interactions. They will:
 - process user data with logic functions
 - update the DOM to show changes to the user
 - log any important information for developers
-
----
-
-### [./src/handlers/add-todo.js](./src/handlers/add-todo.js?study)
 
 [TOP](#DOCS)
 

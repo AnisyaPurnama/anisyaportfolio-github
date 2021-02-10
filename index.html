@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf8" />
-    <title>your project name</title>
+<html lang='en'>
 
-    <link href="./public/style.css" rel="stylesheet" />
-  </head>
+<head>
+  <meta charset='utf8'>
+  <title>Welcome To My Portfolio</title>
+  <script src="https://kit.fontawesome.com/1f1918c2d9.js" crossorigin="anonymous"></script>
+  <link href="./public/style.css" rel="stylesheet" />
 
-  <body>
-    <div id="user-interface"></div>
+</head>
 
-    <!-- initialize your application -->
-    <script type="module" src="./src/init/index.js"></script>
+<body>  
+<header>
+    <video loop muted autoplay poster="bloom.jpg" class="wrapper">
+      <source src="./public/flower.mp4" type="video/mp4">
+    </video>
+  <div class="header-container">
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html" name='work'>Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </div>
+</header>
+  </div>
+<section id="home" class="container">
+  <div class="container">
+    <h1><span class="name">ANISYA WEETELING</span> The
+      <span class="txt-type" data-wait="3000" data-words='["Junior Developer"]'></span>
+    </h1>
+    <h2>Hi there! Welcome To My Portfolio</h2>
+    <a href="work.html" class="btn-bright">My Work</a>
+  </div>
+</section>
 
-    <!-- load the review buttons for your live deployment  -->
-    <script type="module" src="./lib/review-buttons.js"></script>
-  </body>
+  <script src='./lib/review-buttons.js' type='module'></script>
+  <script type='module' src='./src/init.js'></script>
+
+</body>
+
 </html>
