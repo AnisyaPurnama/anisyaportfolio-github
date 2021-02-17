@@ -7,11 +7,13 @@
 <!-- BEGIN TOC -->
 
 - [classes](#classes)
+  - [TypingWord.js](#srcclassesTypingWordjs)
+  - [portfolio.js](#srcclassesportfoliojs)
 - [handlers](#handlers)
 - [init](#init)
-- [index.js](#src\init\indexjs)
+  - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
-- [data.js](#src\datajs)
+- [data.js](#srcdatajs)
 
 <!-- END TOC -->
 
@@ -20,6 +22,15 @@
 ---
 
 Classes and their tests
+
+---
+
+### [./src/classes/TypingWord.js](./src/classes/TypingWord.js?study)
+
+---
+
+### [./src/classes/portfolio.js](./src/classes/portfolio.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -46,7 +57,7 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src\init\index.js](./src\init\index.js?study)
+### [./src/init/index.js](./src/init/index.js?study)
 
 [TOP](#DOCS)
 
@@ -66,6 +77,6 @@ You can use the same handler in many different listeners, or add more than one l
 
 ---
 
-## [./src\data.js](./src\data.js?study)
+## [./src/data.js](./src/data.js?study)
 
 <!-- END DOCS -->
