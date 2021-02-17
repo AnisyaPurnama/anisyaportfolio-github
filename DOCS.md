@@ -6,14 +6,14 @@
 
 <!-- BEGIN TOC -->
 
-- [app](#app)
-  - [todos.js](#srcapptodosjs)
+- [classes](#classes)
+  - [portfolio.js](#src\classes\portfoliojs)
+  - [TypingWord.js](#src\classes\TypingWordjs)
 - [handlers](#handlers)
-  - [add-todo.js](#srchandlersadd-todojs)
 - [init](#init)
-  - [index.js](#srcinitindexjs)
+  - [index.js](#src\init\indexjs)
 - [listeners](#listeners)
-- [data.js](#srcdatajs)
+- [data.js](#src\datajs)
 
 <!-- END TOC -->
 
@@ -21,11 +21,15 @@
 
 ---
 
-# app
+Classes and their tests
 
 ---
 
-### [./src/app/todos.js](./src/app/todos.js?study)
+### [./src\classes\portfolio.js](./src\classes\portfolio.js?study)
+
+---
+
+### [./src\classes\TypingWord.js](./src\classes\TypingWord.js?study)
 
 [TOP](#DOCS)
 
@@ -43,10 +47,6 @@ Handler function define user interactions. They will:
 - update the DOM to show changes to the user
 - log any important information for developers
 
----
-
-### [./src/handlers/add-todo.js](./src/handlers/add-todo.js?study)
-
 [TOP](#DOCS)
 
 ---
@@ -57,7 +57,7 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src/init/index.js](./src/init/index.js?study)
+### [./src\init\index.js](./src\init\index.js?study)
 
 [TOP](#DOCS)
 
@@ -77,6 +77,6 @@ You can use the same handler in many different listeners, or add more than one l
 
 ---
 
-## [./src/data.js](./src/data.js?study)
+## [./src\data.js](./src\data.js?study)
 
 <!-- END DOCS -->
