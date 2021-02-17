@@ -7,11 +7,9 @@
 <!-- BEGIN TOC -->
 
 - [classes](#classes)
-  - [portfolio.js](#src\classes\portfoliojs)
-  - [TypingWord.js](#src\classes\TypingWordjs)
 - [handlers](#handlers)
 - [init](#init)
-  - [index.js](#src\init\indexjs)
+- [index.js](#src\init\indexjs)
 - [listeners](#listeners)
 - [data.js](#src\datajs)
 
@@ -22,15 +20,6 @@
 ---
 
 Classes and their tests
-
----
-
-### [./src\classes\portfolio.js](./src\classes\portfolio.js?study)
-
----
-
-### [./src\classes\TypingWord.js](./src\classes\TypingWord.js?study)
-
 [TOP](#DOCS)
 
 ---

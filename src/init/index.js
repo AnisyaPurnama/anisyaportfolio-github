@@ -3,15 +3,13 @@
 // import all listener files so they can attach to the DOM
 
 // does your project have code that executes when the document or window are ready?
-// that code can go here
 
-'use strict';
+// that code can go here
 
 import { TypeWriter } from './classes/TypingWord.js'
 import { Projects } from './classes/portfolio.js'
 
 console.log('hello');
-
 
 
 document.addEventListener('DOMContentLoaded', init);
@@ -24,7 +22,6 @@ const words = JSON.parse(txtElement.getAttribute('data-words'));
 const wait = txtElement.getAttribute('data-wait');
 new TypeWriter(txtElement, words, wait);
 }
-
 
 
 const mainDiv = document.querySelector('.items');
