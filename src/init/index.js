@@ -6,8 +6,8 @@
 
 // that code can go here
 
-import { TypeWriter } from './classes/TypingWord.js'
-import { Projects } from './classes/portfolio.js'
+import { TypeWriter } from '../classes/TypingWord.js'
+import { Projects } from '../classes/portfolio.js'
 
 console.log('hello');
 
@@ -30,6 +30,7 @@ async function getWorks () {
 const url = "https://api.github.com/users/AnisyaPurnama/repos"
 const response = await fetch(url);
 const result = await response.json();
+console.log (result)
 const arrayOfProjectsId = [299549951, 301969482, 303477531, 309964973, 320541414, 320234357, 320647334, 320805182, 324753358, 333412658];
 result.forEach(item => {
 if(!arrayOfProjectsId.includes(item.id)){
